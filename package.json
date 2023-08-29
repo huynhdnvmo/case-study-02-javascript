@@ -1,0 +1,8 @@
+{
+  "name": "javascript-basic",
+  "version": "1.0.0",
+  "description": "ES6(Javascript 2015), ES7(Javascript 2016) basic",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
