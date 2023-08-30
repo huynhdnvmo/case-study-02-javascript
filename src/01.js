@@ -1,7 +1,30 @@
-const axios = require('axios');
+const objects = [
+  {
+    number: 45,
+  },
+  {
+    number: 4,
+  },
+  {
+    number: 9,
+  },
+  {
+    number: 16,
+  },
+  {
+    number: 25,
+  },
+  {
+    number: 16,
+  },
+  {
+    number: 24,
+  }
+];
 
-axios.get('https://api.github.com/users/ptit9x')
-.then(v => {
-    console.log(v.data);
-})
-.catch(error => console.log(error));
+const newArray = objects.filter((item) => item.number > 20).map((item) => item.number);
+
+const total = objects.reduce((accumulator, currentValue) => accumulator + currentValue.number, 0);
+
+console.log('newArray', newArray)
+console.log('total', total)
