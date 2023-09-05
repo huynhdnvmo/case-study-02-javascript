@@ -1,8 +1,13 @@
 {
   "name": "javascript-basic",
+  "type": "module",
   "version": "1.0.0",
   "description": "ES6(Javascript 2015), ES7(Javascript 2016) basic",
+  "scripts": {
+    "start:vanvd": "node ./src/vu-duc-van/main.js"
+  },
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.20.0",
+    "readline": "^1.3.0"
   }
 }
